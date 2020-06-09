@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Information </title>
+  <link rel="stylesheet" href="css/shopping-cart.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/cs.script.js"></script>
+  <script src="js/search_filter.js"></script>
+</head>
+<body style="background-color: #80808017;">
+<!--giới thiệu-->
+ <header id="site-header">
+		<div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-4">
+            <a href="Home.html"><img src="img/Logo.jpg" width="160px" height="160px"/></a>
+
+          </div>
+          <div class="col-md-8" style="margin-top: 5rem;/*! font-size: 2rem; *//*! padding-left: 30px; */">
+              <p style="padding-left: 25px;font-size: 2.2rem;">Booking Online</p>
+          </div>
+
+        </div>
+        <div class="col-md-12">
+          <p>Welcome to Merciado Amusement where you can buy tickets online without having to wait in line!</p>
+            <p style="margin-bottom:2rem;"> Select the ticket type and quantity, enter your information, print out your ticket,
+             give it to the recipient and you can join !</p>
+        </div>
+      </div>
+
+
+   </div>
+	</header>
+
+	<div class="container">
+		<section id="cart">
+      <div class="col-md">
+
+      </div>
+        <p style="font-size: 1.5rem;/*! font-weight: bold; */padding-left: 30px;font-weight: 300px;">Open Time:</p>
+        <p>Every day we are open from 08:00 to 17:00, the last ticket sold at 16:00</p>
+        <p>We recommend that you come early to enjoy all that the zoo has to offer.</p><br>
+        <!-- <p style="color:red">*Note: Everyone must buy an admission ticket: .</p> -->
+
+  		<article class="product">
+				<header>
+					<a><img src="img/cong.jpg" class="img-thumbnail"></a>
+				</header>
+				<div class="content">
+					<h1>Admission Ticket</h1>
+          Everyone must buy an admission ticket. The admission fee is 10 USD / person
+				</div>
+				<footer class="content">
+					<span class="qt-minus">-</span>
+					<span class="qt">0</span>
+					<span class="qt-plus">+</span>
+					<h2 class="full-price">0USD</h2>
+					<h2 class="price">10 USD</h2>
+				</footer>
+			</article>
+
+			<article class="product">
+				<header>
+					<a><img src="img/children.jpg" class="img-thumbnail"></a>
+				</header>
+				<div class="content">
+					<h1>Combo Ticket 1</h1>
+					 Those aged between 5 and 15 years old will be entitled to a fare of 30 USD
+				</div>
+				<footer class="content">
+					<span class="qt-minus">-</span>
+					<span class="qt">0</span>
+					<span class="qt-plus">+</span>
+					<h2 class="full-price">0 USD</h2>
+					<h2 class="price">30 USD</h2>
+				</footer>
+			</article>
+
+			<article class="product">
+				<header>
+					<a><img src="img/nglon.jpg" class="img-thumbnail"/></a>
+				</header>
+				<div class="content">
+					<h1>Combo Ticket 2</h1>
+				Tickets for people aged 15 and over are priced at US $ 50
+				</div>
+				<footer class="content">
+					<span class="qt-minus">-</span>
+					<span class="qt">0</span>
+					<span class="qt-plus">+</span>
+					<h2 class="full-price">0 USD</h2>
+					<h2 class="price">50 USD</h2>
+				</footer>
+			</article>
+		</section>
+	</div>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-2">
+              <label for="datego" style="padding-top: 10px;">Day Go</label>
+            </div>
+            <div class="form-group col-md-4" style="padding-right: 5px;">
+
+              <input type="date" class="form-control" placeholder="" name="datego" id="ipdatego" onmouseout="checkbirthday()"/>
+
+              <span id="error-ngaydi" class="colorspan"></span>
+            </div>
+          </div>
+      </div>
+  </div>
+	<footer id="site-footer">
+		<div class="container clearfix">
+			<div class="left" style="display:none;">
+				<h2 class="subtotal" >Số Tiền Mua Vé: <span>0 </span>USD</h2>
+				<h3 class="shipping">Tiền Ship: <span>0 </span>vnđ</h3>
+			</div>
+			<div class="right">
+				<h1 class="total">ToTal: <span>0 </span> USD</h1>
+				<a class="btn" href="CustomerInformation.html">Buy</a>
+			</div>
+		</div>
+	</footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/shopping-cart.js"></script>
+</body>
+</html>

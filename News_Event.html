@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>News & Event</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="headerr">
+        <div class="container">
+            <div class="header-main" style="max-width: 1150px;  margin: auto ">
+                <div class="row" style=" display: flex;  max-width: 1150px; margin : auto ;justify-content: space-between">
+                    <div class="col-md-3 col-100-h">
+                        <button type="button" class="navbar-toggle collapsed visible-sm visible-xs" id="trigger-mobile" style="display: none; border: none">
+                            <i class="fa fa-bars" aria-hidden="true" onclick="shownav()"></i>
+                        </button>
+                        <div class="logo">
+                            <a href="Home.html" class="logo-wrapper" style="font-weight: bold; font-size: 19px">
+                                <img src="img/Logo.jpg">
+                            </a>
+                        </div>
+                        <div class="mobile-cart visible-sm visible-xs" style="display: none">
+                            <a href="#" title="Cart">
+                                <i class="fa fa-cart-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="search-forms">
+                        <div class="search-header">
+                            <div class="header_search search_form">
+                                <form class="input-group search-bar search_form"  method="get" role="search">
+                                    <input type="search" name="query" value="" placeholder="Search... " class="input-group-field st-default-search-input search-text" autocomplete="off">
+                                    <span class="input-group-btn">
+                                            <button class="btn icon-fallback-text">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="index-cart cart-wishlist">
+                            <div class="clearfix">
+
+                                <a href="typeticket.html" style="color: #4cae4c" >
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i> Buy Ticket
+                                </a>
+                            </div>
+                        </div>
+                        <div class="account-sign">
+                            <a href="#" class="account-header">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <div class="a-text">Customer Information</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-navigation">
+            <nav class="hidden-sm hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul id="nav" class="nav">
+                                <li class="nav-item active"><a class="nav-link" href="Home.html">Home</a></li>
+                                <li class="nav-item "><a class="nav-link" href="AboutUs.html">About Us</a></li>
+                                <li class="nav-item "><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                                <li class="nav-item "><a class="nav-link" href="Service.html">Service</a></li>
+                                <li class="nav-item "><a class="nav-link" href="News_Event.html">News & Event</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+    <div class="container" itemscope="" itemtype="#">
+        <meta itemprop="name" content="Tin tức">
+        <meta itemprop="description" content="Chủ đề không có mô tả">
+        <div class="row" id="reversecl">
+            <aside class="left left-content col-md-3 col-md-pull-9">
+                <div class="border-bg" style="display: grid">
+
+                    <aside class="aside-item collection-category blog-category">
+                        <div class="heading">
+                            <h2 class="title-head"><span>CATEGORY</span></h2>
+                        </div>
+                        <div class="aside-content">
+                            <nav class="nav-category  navbar-toggleable-md">
+                                <ul class="nav navbar-pills">
+
+
+                                    <li class="nav-item "><a class="nav-link" href="Home.html">Home</a></li>
+
+
+
+                                    <li class="nav-item "><a class="nav-link" href="AboutUs.html">About Us</a></li>
+
+
+
+                                    <li class="nav-item "><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+
+
+
+                                    <li class="nav-item"><a class="nav-link" href="Service.html">Service</a></li>
+
+
+
+                                    <li class="nav-item "><a class="nav-link" href="News_Event.html">News & Event</a></li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </aside>
+
+
+                    <div class="aside-item">
+                        <div class="heading">
+                            <h2 class="title-head">Hot News</h2>
+                        </div>
+                        <div class="list-blogs">
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="#" class="panel-box-media">
+                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-orlando-grinchmas-c.jpg?imwidth=361"
+                                        width="70" alt="Holidays At">
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="HotNew1.html" >Holidays At Merciado Amusement Park</a></h3>
+                                    <div class="post-time">05/12/2019</div>
+                                </div>
+                            </article>
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="#" class="panel-box-media">
+
+                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-orlando-holiday-parade-minion-nutcracker-c.jpg?imwidth=150"
+                                        width="70" alt="The Grinchmas Who-liday Spectacular">
+
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="HotNews2.html" title="The Grinchmas Who-liday Spectacular">Two Lands. One Unforgettable Experience.</a></h3>
+                                    <div class="post-time">06/12/2019</div>
+                                </div>
+                            </article>
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="#" class="panel-box-media">
+                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/UO-WWHP-holidays-castle-c-2.jpg?imwidth="
+                                         width="70">
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="HotNew3.html" title="the grinchmas who-liday spectacular">The grinchmas who-liday spectacular</a></h3>
+                                    <div class="post-time">08/12/2019</div>
+                                </div>
+                            </article>
+
+                            <article class="blog-item blog-item-list clearfix">
+                                <a href="#" class="panel-box-media">
+
+                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-orlando-mannheim-steamroller-conductor-live-c.jpg?imwidth=361"
+                                        width="70" >
+
+                                </a>
+                                <div class="blogs-rights">
+                                    <h3 class="blog-item-name"><a href="HotNews4.html" >Mannheim Steamroller</a></h3>
+                                    <div class="post-time">10/12/2019</div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+            <section class="right-content col-md-9 col-md-push-3 list-blog-page">
+                <div class="border-bg clearfix">
+                    <div class="col-md-12">
+                        <div class="box-heading">
+                            <h1 class="title-head">News</h1>
+                        </div>
+
+
+                        <section class="list-blogs blog-main">
+                            <div class="row">
+                                <div class="page01" id="page1">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="#">
+                                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-orlando-music-hall-c.jpg?imwidth=361" class="img-responsive center-block">
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="new1.html" >Sweets & Sounds Dessert Party</a></h3>
+                                                <div class="post-time">
+                                                    26/05/2018 - Pham Thi Huyen
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5">Make your Holidays a little sweeter.
+                                                    On select nights from November 16 through December 15 you can treat yourself to seasonal desserts,
+                                                    savory bites, sparkling wine and non-alcoholic beverages in a special area to watch
+                                                    Merciado Amusement Park Day featuring Macy’s. Then, after the parade, you’ll have access to an exclusive viewing
+                                                    area near the stage to enjoy Mannheim Steamroller performing live in concert,
+                                                    along with non-...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix mb-3">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="#">
+
+                                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-holiday-parade-float-snow-girl-c.jpg?imwidth=361" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="disneycartoonfestival.html">Disney Cartoon Festival</a></h3>
+                                                <div class="post-time">
+                                                   11/12/2019 - Do Thien Phu
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Savor the flavors of the season and add even more happy to your holidays.
+                                                    Evenings from December 22 to 30 you can delight in an all-you-care-to-enjoy meal
+                                                    featuring taste-tempting specialties and seasonal desserts,
+                                                    along with sparkling wine, non-alcoholic beverages including sparkling cider, and a cash bar. ...</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix mb-3 ">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="#">
+
+                                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-orlando-resort-new-years-eve-c.jpg?imwidth=361" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="eventnewyear.html" >New Year’s Eve in Universal Studios Florida </a></h3>
+                                                <div class="post-time">
+                                                    12/12/2019 - Luong Dinh Dai
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Head to Merciado Amusement Park for upbeat live music, rockin’ party zones,
+                                                    a chance to meet some of your favorite characters, Merciado Amusement Park Celebration,
+                                                    amazing pyrotechnic displays, showers of confetti and, of course, party favors....</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix mb-3">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="#">
+
+                                                    <img src="img/imgnew/new7.jpg" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="LightFestival.html" >EVE at Merciado Amusement Park</a></h3>
+                                                <div class="post-time">
+                                                  12/12/2019 -Pham Thi Huyen
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> The whole year’s been leading up to this: EVE, an electrifying New Year’s
+                                                    Eve celebration at Merciado Amusement Park. Enjoy signature drinks.
+                                                    Revel in at least five incredible Merciado clubs with live music....</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix mb-3">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="Lightupyourwinter.html">
+
+                                                    <img src="img/imgnew/new8.jpg" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="Lightupyourwinter.html">The Grinchmas Who-liday Spectacular</a></h3>
+                                                <div class="post-time">
+                                                    15/12/2019 - Luong Dinh Dai
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Explore Seuss Landing™, filled with the Christmas charm and cheer of Who-ville.
+                                                    Delight in The Grinchmas™ Who-liday Spectacular, a live retelling of the classic holiday tale starring The Grinch™.
+                                                    Plus, meet the maven of mischief himself for an autograph and photo....</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix mb-3">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="EventGame.html">
+
+                                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/transformers-the-ride-orlando-bumblebee-boy-girl-c.jpg?imwidth=361" class="img-responsive center-block">
+
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="EventGame.html" >Entertainment Games</a></h3>
+                                                <div class="post-time">
+                                                    20/12/2019 - Pham Thi Huyen
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Merry and Mayhem combine as the Minions join Santa Claus in Merciado Holiday
+                                                    Parade featuring Macy’s,
+                                                    a holiday favorite that also features characters from Madagascar and Shrek....</p>
+                                            </div>
+                                        </article>
+                                    </div>
+
+
+                                </div>
+                                <div class="page02" id="page2" style="display: none">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix mb-3">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="#">
+
+                                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universal-finnegans-bar-and-grill-couple-c-01.jpg?imwidth=738" class="img-responsive center-block">
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="#">Dining & Food</a></h3>
+                                                <div class="post-time">
+                                                    10/12/2019 -Pham Thi Huyen
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5"> Our quick and full-service restaurants offer everything from snacks like churros,
+                                                    soft pretzels, ice cream, and soda, to elegant gourmet cuisine....</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 clearfix">
+                                        <article class="blog-item">
+                                            <div class="blog-item-thumbnail">
+                                                <a href="#">
+
+                                                    <img src="https://www.universalorlando.com/webdata/k2/en/us/files/Images/universals-superstar-parade-despicable-me-dancers-c.jpg?imwidth=738"class="img-responsive center-block">
+                                                </a>
+                                            </div>
+                                            <div class="blog-item-mains">
+                                                <h3 class="blog-item-name"><a href="#" >Hot Shows at Merciado Amusement Park</a></h3>
+                                                <div class="post-time">
+                                                   09/12/2019 -Pham Thi Huyen
+                                                </div>
+                                                <p class="blog-item-summary margin-bottom-5">Death-defying stunts. Dancing dinosaurs.
+                                                    Characters on parade. The sultans of soul. Grab a seat. It's all about to begin....</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="text-xs-right text-center pagging-css">
+                            <nav>
+                                <ul class="pagination clearfix">
+
+                                    <li class="page-item"><a class="page-link" onclick="shownews1()">«</a></li>
+                                    <li class="active page-item"><a class="page-link" onclick="shownews1()">1</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="shownews2()">2</a></li>
+                                    <li class="page-item"><a class="page-link" onclick="shownews2()">»</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+    <script>
+        var elements = document.getElementsByClassName("page01");
+        var i;
+
+        function shownews1() {
+            const temp = document.getElementById("page1")
+            if (temp.style.display == "none") {
+                temp.style.display = "block"
+                document.getElementById("page1").style.display = "block"
+                document.getElementById("page2").style.display = "none"
+            }
+        }
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("page01");
+                current[0].className = current[0].className.replace("page01", "");
+                this.className += "page01";
+            });
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("page02");
+        var i;
+
+        function shownews2() {
+            const temp = document.getElementById("page2")
+            if (temp.style.display == "none") {
+                temp.style.display = "block"
+                document.getElementById("page1").style.display = "none"
+                document.getElementById("page2").style.display = "block"
+            }
+        }
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("page02");
+                current[0].className = current[0].className.replace("page02", "");
+                this.className += "page02";
+            });
+        }
+    </script>
+<div style="border: 10px solid #97ca51"></div>
+
+    <div class="c-menu--slide-left active modal fade in" style="display: none" id="cmenushow">
+        <div class="la-nav-top-login">
+            <div class="la-avatar-nav p-relative text-center">
+                <a href="Home.html">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+                <div class="la-hello-user-nav ng-scope">Welcome</div>
+                <img id="close-nav" class="c-menu__close"  onclick="hidemenu()">
+            </div>
+            <div class="la-action-link-nav text-center">
+                <a href="#" class="uppercase" style="border: none">Customer Information</a>
+            </div>
+        </div>
+        <aside class="aside-item collection-category">
+            <div class="aside-title">
+                <h3 class="title-head margin-top-0"><span>Category</span></h3>
+            </div>
+            <div class="aside-content">
+                <nav class="nav-category navbar-toggleable-md">
+                    <ul class="nav navbar-pills">
+                        <li class="nav-item "><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Contact Us</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">Service</a></li>
+                        <li class="nav-item "><a class="nav-link" href="#">News & Event</a></li>
+
+
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+    </div>
+    <footer class="footer">
+        <div class="site-footer">
+            <div class="container">
+                <div class="footer-inner padding-top-30 padding-bottom-20">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget">
+                                <h3 onclick="F4('F1')"><span>About Us</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </h3>
+                                <ul class="list-menu" id="F1">
+                                    <li><a href="/"><strong>Merciado Amusement Park</strong> is a company whose main activity is to provide entertainment services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget">
+                                <h3 onclick="F4('F2')"><span>Newsletter</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </h3>
+                                <ul class="list-menu" id="F2">
+                                    <a href="/">Subscribe to our newsletter for news, updates, exclusive discounts and offers.</a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget">
+                                <h3 onclick="F4('F3')"><span>Our Company</span>
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                </h3>
+                                <ul class="list-menu " id="F3">
+                                    <li><a href="/">Event organization</a></li>
+                                    <li><a href="/">Guest house</a></li>
+                                    <li><a href="/">Tour</a></li>
+                                    <li><a href="/">Cuisine</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                            <div class="footer-widget no-border">
+                                <h3 style="display: flex;justify-content: space-between;" onclick="F4('F4')"><span>Contact Details</span><i class="fa fa-caret-down" aria-hidden="true"></i></h3>
+                                <ul class="list-menu ul-footer-contact" id="F4">
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> No. 8, Ton That Thuyet Street, My Dinh Ward, Nam Tu Liem District, Hanoi</li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:(+84)3333-5555">(+84)3333-5555</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:Merciadopark@info.com">Merciadopark@info.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright clearfix">
+            <div class="container">
+                <div class="inner clearfix">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <span>© Coppy right: <b>TeamNhanPham</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="back-to-top show"><i class="fa  fa-arrow-circle-up"></i></div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('quickview');
+        var modal1 = document.getElementById('popup-cart');
+        var modal2 = document.getElementById('cmenushow');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target.id == 'cmenushow') {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("footer-widget");
+        var i;
+
+        function F4(id) {
+            const temp = document.getElementById(id)
+            if (temp.style.display == "block") {
+                temp.style.display = "none"
+                document.getElementById(id).style.display = "none"
+            } else {
+                if (document.getElementById(id).style.display == "none") {
+                    temp.style.display = "block"
+                } else {
+                    temp.style.display = "block"
+                    document.getElementById(id).style.display = "none"
+                }
+            }
+        }
+        var btns = container.getElementsByClassName("footer-widget");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("footer-widget");
+                current[0].className = current[0].className.replace("footer-widget", "");
+                this.className += "footer-widget";
+            });
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("c-menu--slide-left");
+        var i;
+
+        function shownav() {
+            const temp = document.getElementById("cmenushow")
+            if (temp.style.display == "none") {
+                temp.style.display = "block"
+                document.getElementById("cmenushow").style.display = "block"
+            } else {
+                if (document.getElementById("cmenushow").style.display = "none") {
+                    temp.style.display = "block"
+                } else {
+                    temp.style.display = "none"
+                    document.getElementById("cmenushow").style.display = "block"
+                }
+            }
+        }
+        var container = document.getElementById("cmenushow");
+        var btns = container.getElementsByClassName("c-menu--slide-left");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("c-menu--slide-left");
+                current[0].className = current[0].className.replace("c-menu--slide-left", "");
+                this.className += "c-menu--slide-left";
+            });
+        }
+    </script>
+    <script>
+        var elements = document.getElementsByClassName("c-menu--slide-left");
+        var i;
+
+        function hidemenu() {
+            const temp = document.getElementById("cmenushow")
+            if (temp.style.display == "block") {
+                temp.style.display = "none"
+                document.getElementById("cmenushow").style.display = "none"
+            }
+        }
+        var container = document.getElementById("cmenushow");
+        var btns = container.getElementsByClassName("c-menu--slide-left");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("c-menu--slide-left");
+                current[0].className = current[0].className.replace("c-menu--slide-left", "");
+                this.className += "c-menu--slide-left";
+            });
+        }
+    </script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('quickview');
+        var modal1 = document.getElementById('popup-cart');
+        var modal2 = document.getElementById('cmenushow');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target.id == 'cmenushow') {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

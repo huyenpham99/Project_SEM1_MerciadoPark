@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.social ul{
+  padding-left: 0px;
+}
+.social ul li{
+  border-radius: 100%;
+  float: left;
+  height: 54px;
+  width: 54px;
+  list-style: none outside none;
+}
+.social ul li a{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+  font-size: 26px;
+  display: block;
+
+}
+.social ul li a:hover{
+  color: white;
+}
